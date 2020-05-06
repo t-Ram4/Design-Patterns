@@ -1,0 +1,109 @@
+
+Object Oriented Design
+
+1.Program to interface
+2. Prefer composition over inheritance
+3.Strongly cohesive and loosly coupled system
+
+Advantages
+1.Reusablities
+2.Maintanable
+3.Extendability
+
+
+Design principles  Design patterns
+
+SOLID Design Principles
+
+SRP---Single Responsibility Principle
+OCP---Open Closed Principle
+LSP--Liscov Substitution principle
+ISP--Interface Segregation Pricnciple
+DIP--Dependency Inversion principle
+
+Single Responsibility Principle
+
+One class should do only one thing//
+
+Liscov substitution principle
+
+Base class b--instance b1
+
+Sub class s--instance--s1
+
+High level layer should not depend on low level layer
+
+Design pattern 
+
+solution to recuring problem
+
+Creational pattern
+
+Structural pattern
+
+Behavioral pattern
+
+Factory design pattern
+
+Singleton means what?
+
+1. Make the constructor private
+
+2. static method to access the instance
+
+3.synchorized
+
+
+
+Adaptor---AC adaptor
+
+Laptop input: 20v 
+
+Plug point:220
+
+
+Facade pattern
+
+withdraw money
+
+Acccount no checking
+
+Security check
+
+Balance checking
+
+transfer money
+
+Decorator
+Bridge
+                                                             
+Command
+Mediator 
+Chain of responsibility
+Observer
+
+
+Mediator--
+
+Chain of responsibility
+
+
+
+Decorator--
+
+Class/Component --we should be able add additional features without modifying the code.
+
+Bridge pattern
+
+Decouple the Abstract layer  from implementation layer
+
+bridge between abstract layer and implementation layer
+
+Citibank payment system--  IDBI Payment system
+
+Card payement-- netbanking payment
+
+
+encapsulating an action into a class--command pattern
+
+
